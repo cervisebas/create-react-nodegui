@@ -1,15 +1,22 @@
 {
   "packageManager": "yarn@4.9.1",
   "name": "create-react-nodegui",
-  "version": "1.0.0",
+  "version": "0.0.4-beta",
   "main": "bin/index.js",
   "author": "Sebástian Cerviño",
   "license": "MIT",
   "private": false,
+  "bin": {
+    "create-react-nodegui": "./bin/index.js"
+  },
   "scripts": {
     "build": "tsc",
     "dev": "node bin/index.js"
   },
+  "files": [
+    "bin",
+    "react-nodegui-template"
+  ],
   "dependencies": {
     "colors": "^1.4.0",
     "execa": "^5.1.1",
@@ -28,5 +35,7 @@
     "typescript": "^5.8.3",
     "typescript-eslint": "^8.32.0"
   },
-  "node": ">=18"
+  "engines": {
+    "node": ">=18"
+  }
 }

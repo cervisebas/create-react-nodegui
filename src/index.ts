@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import minimist from 'minimist';
 import colors from 'colors';
 import path from 'path';
