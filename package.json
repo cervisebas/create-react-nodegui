@@ -1,7 +1,7 @@
 {
   "packageManager": "yarn@4.9.1",
   "name": "create-react-nodegui",
-  "version": "0.0.4-beta",
+  "version": "0.0.5-beta",
   "main": "bin/index.js",
   "author": "Sebástian Cerviño",
   "license": "MIT",
